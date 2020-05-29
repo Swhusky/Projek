@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Register.css" />
     <title>Document</title>
 </head>
 <body>
@@ -10,47 +11,50 @@
         <div class="container">
             <div class="container-left">
                 <img>
-                <text>
+                <div class="text">
                     <h1>
                         Nikmati Musik Gratis
                     </h1>
                     <h2>
                         Tidak perlu kartu kredit cukup masuk dan mulai menjelajahi
                     </h2>
-                </text>
+                </div>
             </div>
 
             <div class="container-right">
-                <img src="">
-                <h1>
-                    Register
-                </h1>
-                <form>
-                <label for="username">Username</label><br>
-                <input type="text" id="username" name="username" placeholder="Input 5-25 Character" required>
-                <div class="text">
-
-                <label for="email">Alamat Email</label><br>
-                <input type="text" id="email" name="email" placeholder="Email Must Valid" required><br>
-
-                <label for="password">Password</label><br>
-                <input type="password" id="password" name="password" required><br>
+                <div class="box">
+                    <img src="">
+                    <h1>
+                        Register
+                    </h1>
+                    <form>
+                    <label for="username">Username</label><br>
+                    <input type="text" id="username" name="username" placeholder="Input 5-25 Character" required>
+                    <div class="text">
+    
+                    <label for="email">Alamat Email</label><br>
+                    <input type="text" id="email" name="email" placeholder="Email Must Valid" required><br>
+    
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" required><br>
+                    
+                    <label for="confPassword">Konfirmasi Password</label><br>
+                    <input type="password" id="confPassword" name="confPassword" required><br>
+                    <br>
+    
+                    <label for="male">Male</label><br>
+                    <input type="radio" name="gender" id="male" value="male"><br>
+                    
+                    <label for="female">Female</label><br>
+                    <input type="radio" name="gender" id="female" value="female"><br>
+    
+                    </div>
+                    <br>
+                    <button type="submit" id="registerbtn" name="registerbtn">Submit</button>
                 
-                <label for="confPassword">Konfirmasi Password</label><br>
-                <input type="password" id="confPassword" name="confPassword" required><br>
-                <br>
-
-                <label for="male">Male</label><br>
-                <input type="radio" name="gender" id="male" value="male"><br>
-                
-                <label for="female">Female</label><br>
-                <input type="radio" name="gender" id="female" value="female"><br>
-
+                </form>
                 </div>
-                <br>
-                <button type="submit" id="registerbtn" name="registerbtn">Submit</button>
-            
-            </form>
+               
 
             </div>
 
