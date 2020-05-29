@@ -84,6 +84,8 @@ color: #009FBC;}
 }
 
 .container-left{
+    background-image: url(assets/concert.jpg);
+    
     background-color: rgba(0,0,0,0.2);
     width: 50%;
     text-align: center;
@@ -109,20 +111,19 @@ color: #009FBC;}
 }
 .container-right .box{
     margin: auto;
-    margin-top: 5%;
-    width: 500px;
+    margin-top: 15%;
+    width: 450px;
     height: wrap;
-    background-color: #121212;
+    background-color: transparent;
 }
-
 .container-right .box h1{
     font-size: 30px;
 }
 .container-right .box form{
-        width: 500px;
+        width: 400px;
+        background-color: transparent;
         text-align: center;
         box-sizing: border-box;
-        padding: 20px 20px;
         display: inline-block;
 }
 /*-------------*/
@@ -130,7 +131,7 @@ color: #009FBC;}
 /*---------INPUT--------*/
 input[type=text], input[type=password], input[type=date], input[type=number] {
     width: 100%;
-    padding: 10px 0px  10px 8px;
+    padding: 10px 0px 10px 8px;
     margin-bottom: 16px;
     margin-top: 8px;
     border-radius: 5px;
@@ -139,7 +140,7 @@ input[type=text], input[type=password], input[type=date], input[type=number] {
     border:1px solid rgba(0,0,0,1);
     color:#6E6E6E;
     text-shadow:#000 0px 1px 5px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: inherit;
   }
   
@@ -154,7 +155,6 @@ input[type=text], input[type=password], input[type=date], input[type=number] {
   }
 
   input[type=radio]{
- 
     padding: 10px 0  10px 8px;
     margin-bottom: 16px;
     margin-top: 8px;
@@ -207,12 +207,13 @@ input[type=text], input[type=password], input[type=date], input[type=number] {
 }
 
 
-  .registerbtn {
-    background-color: rgb(65, 193, 202);
+  form button {
+    background-color: #00DE75;
     color: white;
     padding: 16px 20px;
     margin: 8px 0;
     border: none;
+    border-radius: 100px;
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
