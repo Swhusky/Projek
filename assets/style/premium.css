@@ -129,8 +129,7 @@ color: #009FBC;}
 }
 .container_top button{
     background-color: 	#1DB954;
-    height: 40px;
-    width: 150px;
+    padding: 15px 25px;
     border: none;
     border-radius: 100px;
     font-weight: 600;
@@ -214,18 +213,19 @@ color: #009FBC;}
 }
 .container_bot .card_box .card .details ul{
     line-height: 1.7em;
-    font-weight: 200;
+    font-weight: 300;
     text-align: left;
     list-style: none;
+    font-size: 80%;
 }
 
 .container_bot .card_box .card button{
     background-color: 	#1DB954;
-    height: 40px;
-    width: 150px;
     border: none;
     border-radius: 100px;
     font-weight: 600;
+
+    padding: 10px 20px;
     
     color: inherit;
     text-transform: uppercase;
